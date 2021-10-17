@@ -17,11 +17,11 @@ int main()
   int sectionAIncome = incomeCalculator('A', sectionATickets);
   cout << "Tickets sold in section B: ";
   cin >> sectionBTickets;
-  int sectionBIncome = incomeCalculator('B', sectionATickets);
+  int sectionBIncome = incomeCalculator('B', sectionBTickets);
   cout << "Tickets sold in section C: ";
   cin >> sectionATickets;
-  int sectionCIncome = incomeCalculator('C', sectionATickets);
-
+  int sectionCIncome = incomeCalculator('C', sectionCTickets);
+  
   // Outputs the total income by combining all the unique variables.
   cout << "The amount of income generated from ticket sales was $" << sectionAIncome + sectionBIncome + sectionCIncome;
 
